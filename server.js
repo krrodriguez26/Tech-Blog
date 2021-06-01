@@ -1,12 +1,13 @@
 const path = require('path');
 const express = require('express');
-const routes = require('./controllers');
-const helpers = require('./utils/helpers');
-const sequelize = require('./config/config');
+const routes = require('./controllers/index.js');
+const dashRoutes = require('./controllers/dashboard-routes.js');
+const helpers = require('./utils/helpers.js');
+const sequelize = require('./config/config.js');
 const exphbs = require('express-handlebars');
 const hbs = exphbs.create({ helpers });
 const session = require('express-session');
-const cool = require('cool-ascii-faces');
+// const cool = require('cool-ascii-faces');
 
 
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
