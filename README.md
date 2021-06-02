@@ -47,7 +47,7 @@ Writing about tech can be just as important as making it. Developers spend plent
 https://blooming-peak-26686.herokuapp.com/
 
 # Screenshot
-
+(https://github.com/krrodriguez26/Tech-Blog/blob/main/assets/Screen%20Shot%202021-06-02%20at%203.00.43%20PM.png)
 
 
 
