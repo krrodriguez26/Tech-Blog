@@ -7,7 +7,7 @@ const sequelize = require('./config/config.js');
 const exphbs = require('express-handlebars');
 const hbs = exphbs.create({ helpers });
 const session = require('express-session');
-// const cool = require('cool-ascii-faces');
+
 
 
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
